@@ -9,26 +9,21 @@ Install the [RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo.1.0.0](https://ww
 
 # Widget
 
-This is a widget which allows you to add a HeroIamge to your page with certain attributes that can be configured while adding. The properties that can be configured are:
-- Is Visible: Select this to display the widget on the page
-- Hero Image CSS Class: Enter the desired CSS class for the banner div style
-- Hero Image Title: Enter the desired text to display in the Hero Image section
-- Hero Image Title CSS Class: Enter the desired CSS class for the Hero Image Title style
-- Desktop Image: Select an image (GIF, PNG, JPG, JPEG, WebP) from the media library for the desktop view
-- Mobile Image: Select an image (GIF, PNG, JPG, JPEG, WebP) from the media library for the mobile view
-- Image Alt Text: Enter the desired alternative text for the image
-- Enable CTA Button: Select this to enable the CTA button on the Hero Image
-- CTA Button Text: Enter the desired CTA button text
-- CTA Button URL: Enter the desired target URL or select from the content tree
-- CTA Button Target: Select an option (e.g., _blank / _self)
-- CTA Button CSS Class: Enter the desired CSS class for the CTA button style
-- Content Before: HTML content placed before the widget content. Can be used to display a header or add encapsulating code such as <div>
-- Content After: HTML content placed after the widget content. Can be used to display a header or add encapsulating code such as <div>
+Thisis a widgetwhich allows you to add a YouTubeVideo to your screen with certain attributes that can be configured while adding. The properties that can be configured are:
+
+- Video URL*
+- Width*
+- Height*
+- Auto Play
+- Related videos
+- Full Screen
+- 
+*Required fields
 
 # Author
 
 This custom widget was created by Ray Business Technologies Pvt Ltd.
-Last updated 31-01-2025
+Last updated 14-02-2025
 
 # License
 
