@@ -23,6 +23,7 @@ namespace RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo
             return View("~/Components/Widgets/YouTubeVideo/_YouTubeVideoWidget.cshtml", new YouTubeVideoWidgetViewModel
             {
                 IsVisible=properties.IsVisible,
+                VideoTitile=properties.VideoTitle,
                 VideoURL = properties.VideoURL,
                 Width = properties.Width,
                 Height = properties.Height,

@@ -15,24 +15,32 @@ namespace RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo
         /// </summary>
         [CheckBoxComponent(Order = 0, Label = "IsVisible", Tooltip = "Select IsVisible option")]
         public bool IsVisible { get; set; }
-        [TextInputComponent(Label = "Video URL", Order = 1, Tooltip = "Enter desired YouTube video URL")]
+        [TextInputComponent(Label = "Video Title", Order = 1, Tooltip = "Enter desired video title")]
+        [RequiredValidationRule(ErrorMessage = "Please Enter Video Title,Required", FieldName = nameof(VideoTitle))]
+        public string? VideoTitle { get; set; }
+
+        [TextInputComponent(Label = "Video URL", Order = 2, Tooltip = "Enter desired YouTube video URL")]
         [RequiredValidationRule(ErrorMessage = "Please Enter Video Url,Required", FieldName = nameof(VideoURL))]
 
         public string? VideoURL { get; set; }
-        [TextInputComponent(Label = "Width", Order = 2, Tooltip = "Enter desired video width")]
+        [TextInputComponent(Label = "Width", Order = 3, Tooltip = "Enter desired video width")]
+        [RequiredValidationRule(ErrorMessage = "Please Enter Width,Required", FieldName = nameof(Width))]
+
         public string? Width { get; set; }
 
-        [TextInputComponent(Label = "Height", Order = 3, Tooltip = "Enter desired video height")]
+        [TextInputComponent(Label = "Height", Order = 4, Tooltip = "Enter desired video height")]
+        [RequiredValidationRule(ErrorMessage = "Please Enter Height,Required", FieldName = nameof(Height))]
+
         public string? Height { get; set; }
 
 
-        [CheckBoxComponent(Label = "Related Video", Order = 4, Tooltip = "Select option to enable related videos")]
+        [CheckBoxComponent(Label = "Related Video", Order = 5, Tooltip = "Select option to enable related videos")]
         public bool IsShowRelatedVideos { get; set; }
 
-        [CheckBoxComponent(Label = "FullScreen", Order = 5, Tooltip = "Select option to enable FullScreen view")]
+        [CheckBoxComponent(Label = "FullScreen", Order = 6, Tooltip = "Select option to enable FullScreen view")]
         public bool IsFullScreen { get; set; }
 
-        [CheckBoxComponent(Label = "Auto Play", Order = 6, Tooltip = "Select option to enable Auto Play")]
+        [CheckBoxComponent(Label = "Auto Play", Order = 7, Tooltip = "Select option to enable Auto Play")]
         public bool IsAutoPlay { get; set; }
     }
 }
