@@ -16,8 +16,9 @@ namespace RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo
         [CheckBoxComponent(Order = 0, Label = "IsVisible", Tooltip = "Select IsVisible option")]
         public bool IsVisible { get; set; }
         [TextInputComponent(Label = "Video URL", Order = 1, Tooltip = "Enter desired YouTube video URL")]
-        public string? VideoURL { get; set; }
+        [RequiredValidationRule(ErrorMessage = "Please Enter Video Url,Required", FieldName = nameof(VideoURL))]
 
+        public string? VideoURL { get; set; }
         [TextInputComponent(Label = "Width", Order = 2, Tooltip = "Enter desired video width")]
         public string? Width { get; set; }
 

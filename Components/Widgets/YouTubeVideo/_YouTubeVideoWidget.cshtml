@@ -16,7 +16,7 @@
     }
 }
 
-@if (!string.IsNullOrEmpty(VideoURL))
+@if (!string.IsNullOrEmpty(VideoURL) && Model.IsVisible)
 {
 
     <iframe type="text/html"
@@ -29,7 +29,4 @@
 
 
 }
-else
-{
-    <p>No video URL provided.</p>
-}
+
