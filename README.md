@@ -5,7 +5,7 @@ Widget Enables to insert the video from specified embed YouTube URL location.
 
 # Installation
 
-Install the [RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo.1.0.0]() NuGet Package to your Xperience by Kentico website (>=29.4.0 with .Net 8.0) and rebuild the project.
+Install the RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo.1.0.0 NuGet Package to your Xperience by Kentico website (>=29.4.0 with .Net 8.0) and rebuild the project.
 
 # Widget
 
@@ -27,7 +27,7 @@ Thisis a widget which allows you to add a YouTubeVideo to your page with certain
 # Author
 
 This custom widget was created by Ray Business Technologies Pvt Ltd.
-Last updated 14-02-2025
+Last updated 13-02-2025
 
 # License
 
