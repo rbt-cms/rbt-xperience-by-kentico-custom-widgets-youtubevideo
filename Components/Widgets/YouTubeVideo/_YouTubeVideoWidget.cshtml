@@ -18,7 +18,10 @@
 
 @if (!string.IsNullOrEmpty(VideoURL) && Model.IsVisible)
 {
-
+    @if (Model.ContentBefore != null)
+    {
+        @Html.Raw(Model.ContentBefore)
+    }
     <iframe type="text/html"
     @(string.IsNullOrEmpty(fullscreenValidation) ? "" : $"allow={fullscreenValidation}")
             width="@Model.Width"
@@ -27,6 +30,9 @@
             title=@Model.VideoTitile>
     </iframe>
 
-
+    @if (Model.ContentAfter != null)
+    {
+        @Html.Raw(Model.ContentAfter)
+    }
 }
 

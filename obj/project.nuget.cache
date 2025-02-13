@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pcwykr3HiLg=",
+  "dgSpecHash": "3xnNb64XNmw=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\XBYK\\CustomWidgets\\rbt-xperience-by-kentico-custom-widgets-youtubevideo\\RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo.csproj",
+  "projectFilePath": "D:\\Projects\\XBYK\\CustomWidgets\\Github\\rbt-xperience-by-kentico-custom-widgets-youtubevideo\\RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vasu\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\Vasu\\.nuget\\packages\\anglesharp.css\\0.17.0\\anglesharp.css.0.17.0.nupkg.sha512",

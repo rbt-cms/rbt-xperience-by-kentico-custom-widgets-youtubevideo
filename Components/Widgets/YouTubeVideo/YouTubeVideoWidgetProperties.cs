@@ -42,5 +42,9 @@ namespace RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo
 
         [CheckBoxComponent(Label = "Auto Play", Order = 7, Tooltip = "Select option to enable Auto Play")]
         public bool IsAutoPlay { get; set; }
+        [TextAreaComponent(Order = 8, Label = "Content Before", Tooltip = "HTML content placed before the widget content. Can be used to display a header or add some encapsualting code such as <div>")]
+        public string? ContentBefore { get; set; }
+        [TextAreaComponent(Order = 9, Label = "Content After", Tooltip = "HTML content placed after the widget content. Can be used to display a header or add some encapsualting code such as <div>")]
+        public string? ContentAfter { get; set; }
     }
 }

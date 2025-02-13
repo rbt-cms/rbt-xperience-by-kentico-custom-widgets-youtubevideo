@@ -30,6 +30,8 @@ namespace RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo
                 IsShowRelatedVideos = properties.IsShowRelatedVideos,
                 IsFullScreen = properties.IsFullScreen,
                 IsAutoPlay = properties.IsAutoPlay,
+                ContentBefore = properties.ContentBefore,
+                ContentAfter =properties.ContentAfter,                
                 VideoParameters = GetYouTubeVideo(properties.IsShowRelatedVideos, properties.IsFullScreen, properties.IsAutoPlay)
             });
         }

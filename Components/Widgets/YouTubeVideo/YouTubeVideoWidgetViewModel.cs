@@ -11,6 +11,8 @@
         public bool IsFullScreen { get; set; }
         public bool IsAutoPlay { get; set; }
         public string VideoParameters { get; set; }
+        public string ContentBefore { get; set; }
+        public string ContentAfter { get; set; }
     }
 }
 

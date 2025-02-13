@@ -5078,13 +5078,13 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\XBYK\\CustomWidgets\\rbt-xperience-by-kentico-custom-widgets-youtubevideo\\RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo.csproj",
+      "projectUniqueName": "D:\\Projects\\XBYK\\CustomWidgets\\Github\\rbt-xperience-by-kentico-custom-widgets-youtubevideo\\RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo.csproj",
       "projectName": "RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo",
-      "projectPath": "D:\\Projects\\XBYK\\CustomWidgets\\rbt-xperience-by-kentico-custom-widgets-youtubevideo\\RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo.csproj",
+      "projectPath": "D:\\Projects\\XBYK\\CustomWidgets\\Github\\rbt-xperience-by-kentico-custom-widgets-youtubevideo\\RBT.Kentico.Xperience.Custom.Widgets.YouTubeVideo.csproj",
       "packagesPath": "C:\\Users\\Vasu\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\XBYK\\CustomWidgets\\rbt-xperience-by-kentico-custom-widgets-youtubevideo\\obj\\",
+      "outputPath": "D:\\Projects\\XBYK\\CustomWidgets\\Github\\rbt-xperience-by-kentico-custom-widgets-youtubevideo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5100,7 +5100,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "D:\\Projects\\XBYK\\LocalPackages": {},
+        "D:\\Projects\\XBYK\\CustomWidgets\\Test\\LocalPackages": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.sitefinity.com/nuget": {}
       },
